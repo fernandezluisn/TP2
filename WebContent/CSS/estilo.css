@@ -8,10 +8,13 @@ H1 {
   color: black;
   margin-left: 100px;
   background-color: white;
+  font-family: 'Open Sans';
 }
 
 h3{
-	background-color:black;
+	color:black; 
+	background-color:white;
+	font-family: Open Sans;
 }
 
 #left{
@@ -20,6 +23,14 @@ h3{
     
     flex-grow:2;
     text-align:center;
+}
+
+body{
+background: "imagenes/argentinabasquet.jpg";
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 #right{
